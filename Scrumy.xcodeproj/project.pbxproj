@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		2990B235298173C500122AAC /* ScrumyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B234298173C500122AAC /* ScrumyApp.swift */; };
-		2990B237298173C500122AAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B236298173C500122AAC /* ContentView.swift */; };
+		2990B237298173C500122AAC /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B236298173C500122AAC /* MeetingView.swift */; };
 		2990B239298173C600122AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2990B238298173C600122AAC /* Assets.xcassets */; };
 		2990B23C298173C600122AAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2990B23B298173C600122AAC /* Preview Assets.xcassets */; };
 		2990B246298173C600122AAC /* ScrumyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B245298173C600122AAC /* ScrumyTests.swift */; };
 		2990B250298173C600122AAC /* ScrumyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B24F298173C600122AAC /* ScrumyUITests.swift */; };
 		2990B252298173C600122AAC /* ScrumyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B251298173C600122AAC /* ScrumyUITestsLaunchTests.swift */; };
+		2990B2602988751600122AAC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B25F2988751600122AAC /* Theme.swift */; };
+		2990B2622988873900122AAC /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B2612988873900122AAC /* DailyScrum.swift */; };
+		2990B2642988B0A000122AAC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B2632988B0A000122AAC /* CardView.swift */; };
+		2990B2662988B5DD00122AAC /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B2652988B5DD00122AAC /* TrailingIconLabelStyle.swift */; };
+		2990B268298977E400122AAC /* ScrumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B267298977E400122AAC /* ScrumView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		2990B231298173C500122AAC /* Scrumy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2990B234298173C500122AAC /* ScrumyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumyApp.swift; sourceTree = "<group>"; };
-		2990B236298173C500122AAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2990B236298173C500122AAC /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		2990B238298173C600122AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2990B23B298173C600122AAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2990B241298173C600122AAC /* ScrumyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,11 @@
 		2990B24B298173C600122AAC /* ScrumyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2990B24F298173C600122AAC /* ScrumyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumyUITests.swift; sourceTree = "<group>"; };
 		2990B251298173C600122AAC /* ScrumyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2990B25F2988751600122AAC /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		2990B2612988873900122AAC /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		2990B2632988B0A000122AAC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		2990B2652988B5DD00122AAC /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		2990B267298977E400122AAC /* ScrumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +104,12 @@
 		2990B233298173C500122AAC /* Scrumy */ = {
 			isa = PBXGroup;
 			children = (
+				2990B25E298874FA00122AAC /* Models */,
 				2990B234298173C500122AAC /* ScrumyApp.swift */,
-				2990B236298173C500122AAC /* ContentView.swift */,
+				2990B2632988B0A000122AAC /* CardView.swift */,
+				2990B267298977E400122AAC /* ScrumView.swift */,
+				2990B2652988B5DD00122AAC /* TrailingIconLabelStyle.swift */,
+				2990B236298173C500122AAC /* MeetingView.swift */,
 				2990B238298173C600122AAC /* Assets.xcassets */,
 				2990B23A298173C600122AAC /* Preview Content */,
 			);
@@ -125,6 +139,15 @@
 				2990B251298173C600122AAC /* ScrumyUITestsLaunchTests.swift */,
 			);
 			path = ScrumyUITests;
+			sourceTree = "<group>";
+		};
+		2990B25E298874FA00122AAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2990B25F2988751600122AAC /* Theme.swift */,
+				2990B2612988873900122AAC /* DailyScrum.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2990B237298173C500122AAC /* ContentView.swift in Sources */,
+				2990B2622988873900122AAC /* DailyScrum.swift in Sources */,
+				2990B268298977E400122AAC /* ScrumView.swift in Sources */,
+				2990B2662988B5DD00122AAC /* TrailingIconLabelStyle.swift in Sources */,
+				2990B2602988751600122AAC /* Theme.swift in Sources */,
+				2990B237298173C500122AAC /* MeetingView.swift in Sources */,
 				2990B235298173C500122AAC /* ScrumyApp.swift in Sources */,
+				2990B2642988B0A000122AAC /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
