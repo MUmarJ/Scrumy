@@ -10,10 +10,11 @@ import SwiftUI
 struct ScrumView: View {
     let scrums: [DailyScrum]
     var body: some View {
-        List{
-            ForEach(scrums, id: \.title){
+        List {
+            ForEach(scrums) {
                 scrum in CardView(scrum: scrum)
                     .listRowBackground(scrum.theme.mainColor)
+//                    .background(scrum.theme.mainColor)
             }
         }
     }
