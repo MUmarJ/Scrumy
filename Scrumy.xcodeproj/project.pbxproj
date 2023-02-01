@@ -19,6 +19,7 @@
 		2990B2642988B0A000122AAC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B2632988B0A000122AAC /* CardView.swift */; };
 		2990B2662988B5DD00122AAC /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B2652988B5DD00122AAC /* TrailingIconLabelStyle.swift */; };
 		2990B268298977E400122AAC /* ScrumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B267298977E400122AAC /* ScrumView.swift */; };
+		2990B26A2989EF7200122AAC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990B2692989EF7200122AAC /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		2990B2632988B0A000122AAC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		2990B2652988B5DD00122AAC /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		2990B267298977E400122AAC /* ScrumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumView.swift; sourceTree = "<group>"; };
+		2990B2692989EF7200122AAC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				2990B234298173C500122AAC /* ScrumyApp.swift */,
 				2990B2632988B0A000122AAC /* CardView.swift */,
 				2990B267298977E400122AAC /* ScrumView.swift */,
+				2990B2692989EF7200122AAC /* DetailView.swift */,
 				2990B2652988B5DD00122AAC /* TrailingIconLabelStyle.swift */,
 				2990B236298173C500122AAC /* MeetingView.swift */,
 				2990B238298173C600122AAC /* Assets.xcassets */,
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2990B2622988873900122AAC /* DailyScrum.swift in Sources */,
+				2990B26A2989EF7200122AAC /* DetailView.swift in Sources */,
 				2990B268298977E400122AAC /* ScrumView.swift in Sources */,
 				2990B2662988B5DD00122AAC /* TrailingIconLabelStyle.swift in Sources */,
 				2990B2602988751600122AAC /* Theme.swift in Sources */,
