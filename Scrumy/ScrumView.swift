@@ -11,11 +11,24 @@ struct ScrumView: View {
     let scrums: [DailyScrum]
     var body: some View {
         List {
-            ForEach(scrums) {
-                scrum in CardView(scrum: scrum)
-                    .listRowBackground(scrum.theme.mainColor)
+            ForEach(scrums) { scrum in
+                NavigationLink(
+                    destination: DetailView(scrum: scrum)
+                ) {
+                    CardView(scrum: scrum)
+
+                }
 //                    .background(scrum.theme.mainColor)
+                .listRowBackground(scrum.theme.mainColor)
             }
+        }
+            .navigationTitle("Daily Scrums")
+            .toolbar {
+            Button(action: { }) {
+                Image(systemName: "plus"
+                )
+            }
+                .accessibilityLabel(Text("New Scrum"))
         }
     }
 }
