@@ -14,6 +14,7 @@ https://developer.apple.com/tutorials/app-dev-training/
 * Structs
 * Data Models
 * State Management
+* Creating Custom LabelStyles
 * Working with iOS Dependencies
 * Coding with Accessibility
 * Usage of Guard Statement
